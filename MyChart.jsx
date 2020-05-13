@@ -9,7 +9,7 @@ function MyChart({ data }) {
 			const canvas = canvasRef.current;
 			const ctx = canvas.getContext('2d');
 
-			if (!chart) return setChart(new Chart(ctx, draw(data)));
+			if (!chart) return setChart(new Chart(ctx, config));
 
 			chart.data.datasets.forEach(dataset => {
 				dataset.data = data;
