@@ -1,52 +1,10 @@
-.search, .home, .register, .login {
-  display: inline-block;
-  border: 1rem dashed gray;
-  border-radius: 2rem;
-  padding: 1rem;
+h1 {
+	text-align: center;
 }
 
-.landing {
-  background-color: orange;
-  text-align: center;
+.canvas-container {
+	position: relative;
+	margin: auto;
+	height: 80vh;
+	width: 80vw;
 }
-
-.login {
-  border-color: blue;
-}
-
-.register {
-  border-color: red;
-}
-
-.home {
-  border-color: yellow;
-}
-.home__link {
-  text-decoration: none;
-}
-.home__link:visited {
-  color: lightgray;
-}
-.home__link--active {
-  font-weight: bold;
-  color: gray;
-}
-.home__link--active:visited {
-  color: gray;
-}
-
-.feedback {
-  color: green;
-}
-.feedback--warning {
-  color: orange;
-}
-.feedback--error {
-  color: red;
-}
-
-.search {
-  border-color: skyblue;
-}
-
-/*# sourceMappingURL=style.css.map */
